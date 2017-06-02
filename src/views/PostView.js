@@ -4,6 +4,9 @@ class PostView {
   }
 
   attachInput() {
-    $("#photo-list").append(`<div><img src="${this.post.url}"><div>${this.post.caption}</div></div>`)
+    $("#photo-list").append(`<div>
+                              <div><img src="${this.post.url}"></div>
+                              <div>${this.post.caption}</div>
+                             </div>`)
   }
 }
